@@ -30,7 +30,7 @@ body {
 }
 
 header {
-  width: 100vh;
+  width: 100vw;
   background-color: #222;
   padding: 15px;
 }

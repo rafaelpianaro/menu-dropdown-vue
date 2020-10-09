@@ -43,12 +43,14 @@ nav .menu-item .sub-menu {
     border-radius: 0px 0px 16px 16px;
 }
 
-.fade-enter-active,
+.fade-enter-active, 
 .fade-leave-active {
-    transition: all .3s ease-in-out;
+    /* transition: all .3s ease-out; */
+    /* transition: opacity .5s; */
+    transition: opacity 0.5s ease;
 }
 
-.fade-enter,
+.fade-enter-from, /* .fade-enter below version 3 */
 .fade-leave-to {
     opacity: 0;
 }
